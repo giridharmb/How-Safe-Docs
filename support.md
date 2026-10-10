@@ -27,7 +27,16 @@ Tap **⋯** on the note and choose **Report this note**.
 **How do I delete all my data?**
 Settings → Your data → Delete all my ratings, votes & reports.
 
-**Is the SOS button a replacement for emergency services?**
+**Does Walk with me text my contacts automatically?**
+No. iOS doesn't allow apps to send texts silently. When your timer runs out you get notifications, and
+How Safe opens a ready-to-send message — you (or anyone with your phone) tap Send. For continuous live
+location, also share your location with them in Find My.
+
+**Why does Area alerts ask for "Always" location access?**
+So iOS can wake How Safe when you enter a watched area while the app is closed. Your location never
+leaves your phone.
+
+**Is the emergency call button a replacement for emergency services?**
 No. It just starts a call to your local emergency number after you confirm.
 
 ## Contact

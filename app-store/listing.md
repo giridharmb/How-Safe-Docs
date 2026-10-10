@@ -39,7 +39,16 @@ SHARE AND GO
 • Share an area with friends and family
 • Open any spot in Apple Maps or Google Maps
 
-SOS
+WALK WITH ME
+• Set a check-in timer for your trip and choose trusted contacts
+• Miss your check-in and How Safe opens a text with your location, ready to send
+• Live countdown on the map
+
+AREA ALERTS
+• Optional heads-up when you walk into an area the community rated unsafe
+• After-dark only, if you prefer — all processed on your iPhone
+
+SAFETY TAB
 • Call your local emergency number in one tap
 • Share your current location
 • Find the nearest police stations, hospitals and pharmacies
@@ -55,6 +64,12 @@ How Safe shows community impressions, not official crime statistics. In an emerg
 ## Keywords (100)
 safety,safe,map,women,night,walk,neighborhood,crime,area,travel,streets,lighting,harassment,sos,city
 
+## What's New (v1.1.0)
+• Walk with me: a check-in timer that helps you alert trusted contacts if you don't arrive on time.
+• Area alerts: optional heads-up when entering low-rated areas, after dark if you prefer.
+• Shares now include a map image.
+• New zoom buttons on the map.
+
 ## What's New (v1.0.0)
 Welcome to How Safe! Rate how safe places feel, explore the community map by day and after dark, share areas, and find help fast with the SOS tab.
 
@@ -68,5 +83,6 @@ Welcome to How Safe! Rate how safe places feel, explore the community map by day
 2. Area detail with day/night scores: "Day and after-dark scores"
 3. Rating form: "Rate any spot in seconds"
 4. Filters, "Rated by women": "See what matters to you"
-5. SOS tab: "Help, one tap away"
-6. Onboarding privacy page: "Private by design"
+5. Walk with me countdown: "Get home, check in"
+6. Safety tab: "Help, one tap away"
+7. Onboarding privacy page: "Private by design"

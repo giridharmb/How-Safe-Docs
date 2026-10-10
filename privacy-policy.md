@@ -6,7 +6,7 @@ permalink: /privacy-policy/
 
 # Privacy Policy
 
-**Effective date:** October 9, 2026 · **Version:** 1.0
+**Effective date:** October 9, 2026 · **Version:** 1.1 (adds Walk with me and Area alerts)
 
 How Safe ("the app", "we") is built to help people feel safer, and that includes being safe with your data.
 This policy explains what the app collects, why, and the choices you have.
@@ -40,14 +40,32 @@ When you mark a note helpful or not helpful, or report it, we store the vote or 
 - Whether you've completed onboarding and accepted the guidelines
 - A count of recent submissions, used to limit spam
 
+- Your **trusted contacts** for Walk with me (name and phone number you chose)
+- Your Walk with me timer (start time, deadline, optional destination and note)
+- Your Area alerts setting and the list of nearby areas being watched
+
 ### 1.4 Location
 With your permission ("While Using the App"), the app uses your current location to centre the map,
-suggest a spot to rate, and find nearby safe places on the SOS tab. Your location is **processed on your
-device and never uploaded or stored**, except for the rounded location of a rating you choose to post.
+suggest a spot to rate, and find nearby safe places on the Safety tab.
 
-### 1.5 What we don't collect
-Your name, email, phone number, contacts, photos, precise age, browsing history, advertising
-identifier, or a continuous location trail.
+If you turn on **Area alerts**, or start **Walk with me**, the app may use your location **in the
+background** (iOS "Always" permission for Area alerts) to notice when you enter a low-rated area, and to
+include your latest location in a check-in message. Your location is **processed on your device and
+never uploaded or stored on a server**, except for the rounded location of a rating you choose to post.
+
+### 1.5 Walk with me messages
+When you choose to alert your contacts, How Safe opens a pre-filled message in the Messages app (or the
+share sheet). **The app never sends messages by itself** — you review it and tap Send. Contacts are picked
+with the iOS contact picker, so How Safe only receives the single number you select and can't read your
+address book.
+
+### 1.6 Notifications
+Walk with me reminders and Area alerts are **local notifications** created on your iPhone. No push
+notification server is involved.
+
+### 1.7 What we don't collect
+Your name, email, phone number, your address book, photos, precise age, browsing history, advertising
+identifier, or a continuous location trail. (Trusted contacts you add stay on your device.)
 
 ## 2. How we use it
 - To show the community safety map and area details
@@ -79,6 +97,8 @@ ratings count for less in the score over time (see [How scores work](../how-scor
 - **Delete a single rating:** My Ratings → swipe left → Delete
 - **Delete everything you've posted, voted on or reported:** Settings → Your data → Delete all my ratings, votes & reports
 - **Location:** iOS Settings → Privacy & Security → Location Services → How Safe
+- **Area alerts:** Safety → Area alerts → turn off (stops background monitoring immediately)
+- **Trusted contacts:** Safety → Walk with me → swipe a contact to delete
 - Depending on where you live (for example under GDPR or CCPA), you may have rights to access, correct,
   delete or move your data. Most of these you can do directly in the app; for anything else, contact us (below).
 

@@ -19,7 +19,7 @@ heading to the station, a parent choosing a park, a traveller picking a hotel ne
 ## What you can do
 
 ### See the map
-- Apple Maps with your location and a colour overlay of community safety ratings.
+- Apple Maps with your location and a colour overlay of community safety ratings, with pinch or +/− zoom.
 - Zoom in down to individual blocks (about 40 m) or out to whole neighbourhoods.
 - Colour strength shows **confidence**: one rating gives a faint tint, dozens of ratings give a solid colour.
 - Search any address or place, and switch between standard and satellite views.
@@ -63,13 +63,22 @@ Tap a coloured area to see:
 - **First-hand experiences only**, and **hide areas with very few ratings**
 
 ### Share and navigate
-- Share an area with friends as a link plus a short summary ("Rated *Unsafe* by 12 people, reported: poor lighting, isolated").
+- Share an area with friends as a link, a short summary ("Rated *Unsafe* by 12 people, reported: poor lighting, isolated") and a map image.
 - Open any spot in **Apple Maps** or **Google Maps**.
 
-### SOS
+### Safety tab
 - Call your local emergency number in one tap (after a confirmation step)
 - Share your current location
 - Find the nearest **police stations, hospitals, fire stations and pharmacies**, with walking directions
+
+### Walk with me *(new in 1.1)*
+Heading home late? Start a check-in timer and choose trusted contacts. A countdown stays on the map.
+If you don't tap **I'm safe** in time, How Safe reminds you, then opens a text to your contacts with your
+location — ready to send with one tap. You can also add time, or alert your contacts at any moment.
+
+### Area alerts *(new in 1.1)*
+Turn on Area alerts and How Safe quietly watches the nearest low-rated areas. Walk into one and you get a
+heads-up with what people reported — optionally only after dark. It all runs on your iPhone.
 
 ---
 

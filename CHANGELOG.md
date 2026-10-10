@@ -5,6 +5,16 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-10-09
+### Added
+- Walk with me: check-in timer, trusted contacts, reminder / due / overdue local notifications with actions, pre-filled alert message with latest location, map countdown banner.
+- Area alerts: on-device CLMonitor geofences for nearby low-rated areas, after-dark option, 1-hour per-area cooldown.
+- Map snapshot image attached when sharing an area.
+- Zoom in / zoom out buttons on the map.
+### Changed
+- "SOS" tab renamed to "Safety" and expanded.
+- Privacy policy v1.1: trusted contacts, background location, notifications.
+
 ## [1.0.0] - 2026-10-09
 ### Added
 - Community safety map with geohash-based red → green overlay and confidence shading.
