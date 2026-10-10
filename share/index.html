@@ -1,0 +1,61 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How Safe · Shared place</title>
+<meta name="description" content="Someone shared a place from How Safe, the community safety map.">
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --text:#111; --muted:#666; --accent:#1a7890; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f1115; --card:#1a1d23; --text:#f2f2f2; --muted:#a0a0a0; --accent:#4fb3cc; } }
+  body { margin:0; font:16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background:var(--bg); color:var(--text); }
+  main { max-width:480px; margin:0 auto; padding:32px 16px; }
+  .card { background:var(--card); border-radius:16px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,.08); }
+  h1 { font-size:24px; margin:0 0 4px; }
+  p { color:var(--muted); margin:0 0 20px; }
+  .coords { font-family:ui-monospace, Menlo, monospace; color:var(--text); }
+  a.btn { display:block; text-align:center; text-decoration:none; padding:14px; border-radius:12px; margin-top:10px; font-weight:600; border:1px solid var(--accent); color:var(--accent); }
+  a.btn.primary { background:var(--accent); color:#fff; }
+  .error { color:#c0392b; }
+  footer { text-align:center; margin-top:24px; font-size:13px; color:var(--muted); }
+  footer a { color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>🛡️ Shared from How Safe</h1>
+    <p id="intro">Someone shared a place with you from the community safety map.</p>
+    <p class="coords" id="coords"></p>
+    <a class="btn primary" id="app" href="#">Open in How Safe</a>
+    <a class="btn" id="apple" href="#">Open in Apple Maps</a>
+    <a class="btn" id="google" href="#">Open in Google Maps</a>
+  </div>
+  <footer>
+    Ratings are community impressions, not official crime data.<br>
+    <a href="../">About How Safe</a> · <a href="../privacy-policy/">Privacy</a>
+  </footer>
+</main>
+<script>
+  (function () {
+    var q = new URLSearchParams(location.search);
+    var lat = parseFloat(q.get('lat')), lon = parseFloat(q.get('lon'));
+    var ok = isFinite(lat) && isFinite(lon) && Math.abs(lat) <= 90 && Math.abs(lon) <= 180;
+    if (!ok) {
+      document.getElementById('intro').textContent = 'This link is missing a location.';
+      document.getElementById('intro').className = 'error';
+      ['app', 'apple', 'google'].forEach(function (id) { document.getElementById(id).style.display = 'none'; });
+      return;
+    }
+    var ll = lat.toFixed(5) + ',' + lon.toFixed(5);
+    document.getElementById('coords').textContent = '📍 ' + ll;
+    document.getElementById('app').href = 'howsafe://area?lat=' + lat.toFixed(5) + '&lon=' + lon.toFixed(5);
+    document.getElementById('apple').href = 'https://maps.apple.com/?ll=' + ll + '&q=Shared%20place';
+    document.getElementById('google').href = 'https://www.google.com/maps/search/?api=1&query=' + ll;
+  })();
+</script>
+</body>
+</html>

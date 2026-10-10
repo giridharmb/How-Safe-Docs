@@ -1,0 +1,19 @@
+name: 🔒 Privacy request
+description: Questions about your data or a data-rights request
+labels: [privacy]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Most requests can be done directly in the app: **Settings → Your data → Delete all my ratings, votes & reports**.
+        Issues here are public, so **don't post personal information**. Ask for a private channel if you need one.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Request type
+      options: [Question, Access, Deletion, Correction, Other]
+    validations: { required: true }
+  - type: textarea
+    id: details
+    attributes: { label: Details }
+    validations: { required: true }

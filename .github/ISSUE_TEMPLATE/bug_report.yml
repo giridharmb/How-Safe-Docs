@@ -1,0 +1,21 @@
+name: 🐞 Bug report
+description: Something in the app isn't working as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes: { label: What happened?, description: Include steps to reproduce. Please don't include exact home addresses. }
+    validations: { required: true }
+  - type: textarea
+    id: expected
+    attributes: { label: What did you expect? }
+  - type: input
+    id: version
+    attributes: { label: App version, description: Settings → About → Version, placeholder: "1.0.0 (1)" }
+    validations: { required: true }
+  - type: input
+    id: device
+    attributes: { label: iPhone model and iOS version, placeholder: "iPhone 16 Pro, iOS 26.1" }
+  - type: textarea
+    id: screenshots
+    attributes: { label: Screenshots, description: Blur any personal information. }

@@ -1,0 +1,19 @@
+name: 💡 Feature request
+description: Suggest an idea to make How Safe more useful
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes: { label: What problem would this solve?, description: Who is it for and when would they use it? }
+    validations: { required: true }
+  - type: textarea
+    id: idea
+    attributes: { label: Your idea }
+    validations: { required: true }
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: This feature couldn't be used to identify, track or target a specific person.
+          required: true

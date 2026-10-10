@@ -1,0 +1,6 @@
+title: How Safe
+description: A community map of how safe places feel — by day and after dark, for everyone.
+theme: jekyll-theme-cayman
+baseurl: /How-Safe-Docs
+url: https://giridharmb.github.io
+exclude: [templates, app-store, CHANGELOG.md, CONTRIBUTING.md, SECURITY.md, LICENSE]

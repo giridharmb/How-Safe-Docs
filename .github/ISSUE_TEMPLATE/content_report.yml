@@ -1,0 +1,22 @@
+name: 🚩 Content report / appeal
+description: Report a rating or note that breaks the guidelines, or appeal a removal
+labels: [moderation]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type
+      options: [Report content, Appeal a removal]
+    validations: { required: true }
+  - type: input
+    id: link
+    attributes: { label: Shared link or approximate area, description: Use the app's Share button to get a link. }
+    validations: { required: true }
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason
+      options: [Names or personal info, Hateful or harassing, Spam or advertising, Clearly false, Private home rated, Other]
+  - type: textarea
+    id: details
+    attributes: { label: Details, description: Don't repeat personal information here. Describe it instead. }

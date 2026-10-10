@@ -1,0 +1,12 @@
+name: 📄 Documentation
+description: A typo, unclear wording or missing information in these docs
+labels: [documentation]
+body:
+  - type: input
+    id: page
+    attributes: { label: Page }
+    validations: { required: true }
+  - type: textarea
+    id: change
+    attributes: { label: What should change? }
+    validations: { required: true }
