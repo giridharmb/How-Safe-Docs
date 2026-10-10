@@ -19,3 +19,14 @@ We're open about how the map is coloured, so you can judge for yourself how much
 9. **Confidence** depends on how many recent, independent ratings a cell has. Few ratings give a faint colour; many give a strong colour. You can hide low-confidence areas in Filters.
 
 **Filters change the score.** For example, choosing *After dark* and *Rated by women* recalculates every cell using only those ratings.
+
+## Safer routes
+
+For walking routes, How Safe samples each candidate route every ~20 m and looks up the ~150 m area
+under each point (using your current map filters, e.g. *after dark* or *rated by women*). Each route gets:
+
+- metres through **low-rated** (score ≤ −0.75), **caution** (≤ +0.25), **safe** and **unrated** areas
+- a penalty = 4 × low-rated metres + caution metres − 50 × average score
+
+The route with the lowest penalty is marked **Safest**. Unrated streets aren't treated as safe or unsafe —
+they're shown in blue so you can judge for yourself.

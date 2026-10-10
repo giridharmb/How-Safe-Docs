@@ -8,3 +8,5 @@
 - **Time-sensitive notifications:** used only for Walk with me check-in deadlines.
 - **Messages:** the app never sends SMS itself; it presents MFMessageComposeViewController for the user to send.
 - To test Walk with me quickly: Safety → Walk with me → add a contact → choose 5 min (stepper) → Start.
+- **v1.2 Live Activities:** started only when the user starts Walk with me; local updates only (no push token). Buttons run `LiveActivityIntent`s in the app.
+- **v1.2 Safer routes:** uses MKDirections; route scoring runs on-device. Test: tap any spot on the map → walking-person button.

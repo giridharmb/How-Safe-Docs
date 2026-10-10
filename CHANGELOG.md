@@ -5,6 +5,13 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-10-09
+### Added
+- Safer walking routes: candidates from Apple Maps plus detours, scored every 20 m against community safety areas, Safest/Fastest badges, per-area route colouring, one-tap Walk with me.
+- Walk with me Live Activity (Lock Screen + Dynamic Island) with I'm safe / +10 min buttons and overdue state.
+- App Intents & App Shortcuts: Start Walk with me, I'm safe, Add time, Alert my contacts, Walk status (Siri, Spotlight, Shortcuts, Action button).
+- Manage trusted contacts from a running walk.
+
 ## [1.1.0] - 2026-10-09
 ### Added
 - Walk with me: check-in timer, trusted contacts, reminder / due / overdue local notifications with actions, pre-filled alert message with latest location, map countdown banner.

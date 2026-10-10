@@ -6,6 +6,18 @@ permalink: /release-notes/
 
 # Release notes
 
+## Version 1.2.0 (build 3) — Safer routes
+*October 2026*
+
+### New
+- 🧭 **Safer walking routes** — get walking routes to any pin, search result or area, ranked by how safe the community says the streets along them feel. The route line is coloured red → green block by block, with **Safest** and **Fastest** badges and a breakdown of how much of each route passes through low-rated areas.
+- 🔒 **Walk with me on your Lock Screen** — a Live Activity shows your countdown on the Lock Screen and in the Dynamic Island, with **I'm safe** and **+10 min** buttons. It turns into an “Overdue” reminder if you don't check in.
+- 🗣️ **Siri, Shortcuts & the Action button** — “Hey Siri, start Walk with me in How Safe”, “I'm safe in How Safe”, “Alert my contacts with How Safe”. Add any of them to the Action button.
+- One tap from a route starts **Walk with me** with a check-in time based on the walk.
+
+### Privacy & safety
+- Routes are calculated by Apple Maps; safety scoring happens on your iPhone. Your trips aren't stored or uploaded.
+
 ## Version 1.1.0 (build 2) — Stay safe on the move
 *October 2026*
 

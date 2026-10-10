@@ -39,7 +39,13 @@ SHARE AND GO
 • Share an area with friends and family
 • Open any spot in Apple Maps or Google Maps
 
+SAFER ROUTES
+• Walking routes coloured block by block by community safety ratings
+• See which route is Safest and which is Fastest
+
 WALK WITH ME
+• Countdown on your Lock Screen and Dynamic Island
+• “Hey Siri, I'm safe in How Safe” — or put it on the Action button
 • Set a check-in timer for your trip and choose trusted contacts
 • Miss your check-in and How Safe opens a text with your location, ready to send
 • Live countdown on the map
@@ -64,6 +70,11 @@ How Safe shows community impressions, not official crime statistics. In an emerg
 ## Keywords (100)
 safety,safe,map,women,night,walk,neighborhood,crime,area,travel,streets,lighting,harassment,sos,city
 
+## What's New (v1.2.0)
+• Safer routes: walking routes ranked and coloured by community safety ratings.
+• Walk with me on your Lock Screen and Dynamic Island, with I'm safe and +10 min buttons.
+• Siri, Shortcuts and Action button support.
+
 ## What's New (v1.1.0)
 • Walk with me: a check-in timer that helps you alert trusted contacts if you don't arrive on time.
 • Area alerts: optional heads-up when entering low-rated areas, after dark if you prefer.
@@ -80,6 +91,7 @@ Welcome to How Safe! Rate how safe places feel, explore the community map by day
 
 ## Screenshots (6.9" and 6.5")
 1. Map with red/green overlay: "See how safe places feel"
+1b. Safer route panel with coloured route: "Take the safer way home"
 2. Area detail with day/night scores: "Day and after-dark scores"
 3. Rating form: "Rate any spot in seconds"
 4. Filters, "Rated by women": "See what matters to you"

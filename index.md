@@ -76,6 +76,16 @@ Heading home late? Start a check-in timer and choose trusted contacts. A countdo
 If you don't tap **I'm safe** in time, How Safe reminds you, then opens a text to your contacts with your
 location — ready to send with one tap. You can also add time, or alert your contacts at any moment.
 
+### Safer routes *(new in 1.2)*
+Pick a destination and How Safe shows walking routes coloured block by block by community ratings,
+marks the **Safest** and **Fastest**, and tells you how much of each passes through low-rated areas.
+Start Walk with me from the route in one tap.
+
+### Lock Screen, Siri & Action button *(new in 1.2)*
+Your Walk with me countdown lives on the Lock Screen and in the Dynamic Island with **I'm safe** and
+**+10 min** buttons. Or just say “Hey Siri, I'm safe in How Safe”. Put “Alert my contacts” on the
+Action button for one-press help.
+
 ### Area alerts *(new in 1.1)*
 Turn on Area alerts and How Safe quietly watches the nearest low-rated areas. Walk into one and you get a
 heads-up with what people reported — optionally only after dark. It all runs on your iPhone.

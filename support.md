@@ -36,6 +36,16 @@ location, also share your location with them in Find My.
 So iOS can wake How Safe when you enter a watched area while the app is closed. Your location never
 leaves your phone.
 
+**How is the “Safest” route chosen?**
+Apple Maps suggests walking routes (plus a couple of detours we ask for). How Safe checks every ~20 m of
+each route against community ratings and picks the one that spends the least distance in low-rated
+areas. If nobody has rated the streets yet, no route is marked safest. See [How scores work](../how-scores-work/).
+
+**Which Siri phrases work?**
+“Start Walk with me in How Safe”, “I'm safe in How Safe”, “Add time to my walk in How Safe”,
+“Alert my contacts with How Safe” and “How long is left on my walk in How Safe”. They also appear in the
+Shortcuts app and can be assigned to the Action button (Settings → Action Button → Shortcut).
+
 **Is the emergency call button a replacement for emergency services?**
 No. It just starts a call to your local emergency number after you confirm.
 
